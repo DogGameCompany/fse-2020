@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro .titre {
+    text-align: center;
+    background: #DD9933;
+    color: #fff;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.intro .textun {
+    background: #B5B5B5;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.intro .textunlienp {
+    margin-top: -45px;
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.intro .textunlien {
+    text-decoration: none;
+    background: #999;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.intro .textunlien:hover {
+    background: #DD9933;
+}
+
+.contenu .boxmaintenance {
+    margin-top: 200px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu .boxmaintenance .imgmaintenance {
+    -webkit-filter : hue-rotate(272deg) saturate(25);
+    filter : hue-rotate(272deg) saturate(25);
+}
+
+.contenu .boxmaintenance .textmaintenance {
+    margin-top: -45px;
+    font-weight: 500;
+}
+
+.contenu .buttonbeta {
+    margin-top: -125px;
+    margin-left: 210px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.contenu .buttonbeta a {
+    text-decoration: none;
+    color: #DD9933
+}
+
+.contenu .buttonbeta a:hover {
+    text-decoration: underline;
+}
